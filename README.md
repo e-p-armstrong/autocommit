@@ -28,7 +28,7 @@ pwd
 repo_path: "/Users/evan/repos/autocommit" # Replace this with the path to the repo you're working in (this repo wrote its own commits)
 interval_seconds: 10 # As the commit history of this repo has perhaps demonstrated, once every 10 seconds is... a lot haha
 api_key: "put your key here"
-base_url: "http://127.0.0.1:5000/v1/" # change based on your api provider. This is the default root for Ooba. I actually don't know what the right setting for using OpenAI is.
+base_url: "http://127.0.0.1:5000/v1/" # change based on your api provider. This is the default root for Ooba. I actually don't know what the right setting for using OpenAI is, I think it might be 
 push: true # whether it git pushes as well as committing
 model: "NousResearch/Nous-Hermes-2-Mixtral-8x7B-DPO"
 ```

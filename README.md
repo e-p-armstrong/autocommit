@@ -6,7 +6,7 @@ And actually naming the commits, so that you can look through the history later 
 
 Not anymore!
 
-Autocommit is a super-lightweight and configurable script that lets AI handle the committing for you. It can use local or API-hosted models from a variety of providers — anything compatible with OpenAI-style API requests. By default it points to the endpoint offered by the [Text Generation Webui in server mode](https://github.com/oobabooga/text-generation-webui), but all you need to do is change the YAML file to point at the provider you want. Recommend small models: they should be able to handle it. Every commit except the first commit in this repo was handled by a Q_8 quant of Mistral 7b, running locally.
+Autocommit is a super-lightweight and configurable script that lets AI handle the committing for you. It can use local or API-hosted models from a variety of providers — anything compatible with OpenAI-style API requests. By default it points to the endpoint offered by the [Text Generation Webui in server mode](https://github.com/oobabooga/text-generation-webui), but all you need to do is change the YAML file to point at the provider you want. I recommend small models: they should be able to handle it. Every commit except the first commit in this repo was handled by a Q_8 quant of Mistral 7b, running locally.
 
 Features:
 - 

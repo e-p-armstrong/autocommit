@@ -35,5 +35,7 @@ model: "NousResearch/Nous-Hermes-2-Mixtral-8x7B-DPO"
 ```
 5. Run the script!
 ```
-
+python autocommit.py
 ```
+6. Never lose work again! √
+

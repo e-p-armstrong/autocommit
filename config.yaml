@@ -3,3 +3,4 @@ interval_seconds: 10
 api_key: "put your key here"
 base_url: "http://127.0.0.1:5000/v1/" # change based on your api provider
 push: true
+model: "NousResearch/Nous-Hermes-2-Mixtral-8x7B-DPO"

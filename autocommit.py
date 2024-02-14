@@ -188,7 +188,7 @@ Binary files /dev/null and b/.DS_Store differ
 
     completion = client.chat.completions.create(
         messages=example_messages,
-        model="NousResearch/Nous-Hermes-2-Mixtral-8x7B-DPO"
+        model=""
     ).choices[0].message.content
     return completion
 

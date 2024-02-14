@@ -8,7 +8,7 @@ Not anymore!
 
 Autocommit is a super-lightweight and configurable script that lets AI handle the committing for you. It can use local or API-hosted models from a variety of providers — anything compatible with OpenAI-style API requests. By default it points to the endpoint offered by the [Text Generation Webui in server mode](https://github.com/oobabooga/text-generation-webui), but all you need to do is change the YAML file to point at the provider you want. I recommend small models: they should be able to handle it. Every commit except the first commit in this repo was written by a Q_8 quant of Mistral 7b, running locally on my old Macbook, committing every 10 seconds.
 
-Usage:
+## Usage:
 
 1. clone this repo
 ```
@@ -38,3 +38,13 @@ python autocommit.py
 ```
 6. Never lose work again! √
 
+## API provider base urls list (feel free to add):
+```
+- "http://127.0.0.1:5000/v1/" # for if you are running Oobabooga with the api extension
+- 
+```
+
+Notes and possible areas for improvement:
+- It currently doesn't make the first commit of a project
+- I don't know if it works on windows
+- a list of 

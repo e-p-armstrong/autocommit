@@ -22,7 +22,7 @@ pwd
 ```
 4. take this path and put it in the relevant spot in config.yaml, in this repo
 ```yaml
-repo_path: "/Users/evan/repos/autocommit" # Replace this with the path to the repo you're working in
+repo_path: "/Users/evan/repos/autocommit" # Replace this with the path to the repo you're working in (this repo wrote its own commits)
 interval_seconds: 10
 api_key: "put your key here"
 base_url: "http://127.0.0.1:5000/v1/" # change based on your api provider

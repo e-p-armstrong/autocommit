@@ -6,7 +6,7 @@ And actually naming the commits, so that you can look through the history later 
 
 Not anymore!
 
-Autocommit is a super-lightweight and configurable script that lets AI handle the committing for you. It can use local or API-hosted models from a variety of providers — anything compatible with OpenAI-style API requests. By default it points to the endpoint offered by the [Text Generation Webui in server mode](https://github.com/oobabooga/text-generation-webui), but all you need to do is change the YAML file to point at the provider you want. I recommend small models: they should be able to handle it. Every commit except the first commit in this repo was written by a Q_8 quant of Mistral 7b, running locally, committing every 10 seconds.
+Autocommit is a super-lightweight and configurable script that lets AI handle the committing for you. It can use local or API-hosted models from a variety of providers — anything compatible with OpenAI-style API requests. By default it points to the endpoint offered by the [Text Generation Webui in server mode](https://github.com/oobabooga/text-generation-webui), but all you need to do is change the YAML file to point at the provider you want. I recommend small models: they should be able to handle it. Every commit except the first commit in this repo was written by a Q_8 quant of Mistral 7b, running locally on my old Macbook, committing every 10 seconds.
 
 Usage:
 
@@ -14,13 +14,17 @@ Usage:
 ```
 git clone https://github.com/e-p-armstrong/autocommit.git
 ```
+2. Install the requirements:
+```
+
+```
 
 2. Go to the directory you want to autocommit in.
 3. Do your OS's version of `pwd` to print the absolute path to the directory you're in.
 ```
 pwd
 ```
-4. take this path and put it in the relevant spot in config.yaml, in this repo
+4. take this path and put it in the relevant spot in config.yaml, in this repo. Configure anything else you want to while you're at it.
 ```yaml
 repo_path: "/Users/evan/repos/autocommit" # Replace this with the path to the repo you're working in (this repo wrote its own commits)
 interval_seconds: 10
@@ -28,4 +32,8 @@ api_key: "put your key here"
 base_url: "http://127.0.0.1:5000/v1/" # change based on your api provider
 push: true # whether it git pushes as well as committing
 model: "NousResearch/Nous-Hermes-2-Mixtral-8x7B-DPO"
+```
+5. Run the script!
+```
+
 ```

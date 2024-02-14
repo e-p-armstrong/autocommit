@@ -15,4 +15,12 @@ Usage:
 git clone https://github.com/e-p-armstrong/autocommit.git
 ```
 
-2. Go to the directory you want to 
+2. Go to the directory you want to autocommit in.
+3. Do your OS's version of `pwd` to print the absolute path to the directory you're in.
+```
+pwd
+```
+4. take this path and put it in the relevant spot in config.yaml, in this repo
+```
+
+```

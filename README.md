@@ -16,7 +16,7 @@ git clone https://github.com/e-p-armstrong/autocommit.git
 ```
 2. Install the requirements:
 ```
-
+pip install -r requirements.txt
 ```
 
 2. Go to the directory you want to autocommit in.

@@ -4,7 +4,7 @@ import yaml
 from openai import OpenAI
 
 # Helper function stub
-def process_diff_output(diff_output,client):
+def process_diff_output(diff_output,client,config):
     # Process the diff output here and return a commit message
     example_messages = [
         {
@@ -188,7 +188,7 @@ Binary files /dev/null and b/.DS_Store differ
 
     completion = client.chat.completions.create(
         messages=example_messages,
-        model=""
+        model=config["model"]
     ).choices[0].message.content
     return completion
 

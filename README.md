@@ -42,10 +42,11 @@ python autocommit.py
 ```
 - http://127.0.0.1:5000/v1/ # for if you are running Oobabooga with the api extension
 - https://api.together.xyz # together.ai, which is real cheap, real flexible, real high-quality, and real unreliable with their capacity sometimes (still love 'em though)
--  https://api.openai.com/v1/ # OpenAI 
+- https://api.openai.com/v1/ # OpenAI 🤮. But it might work well with 3.5 Turbo. Don't actually know if this one works, someone tell me. 
 ```
 
 Notes and possible areas for improvement:
+- If your company tracks performance through number of commits this is practically cheating lol
 - It currently doesn't make the first commit of a project
 - I don't know if it works on windows
 - a list of 

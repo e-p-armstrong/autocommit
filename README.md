@@ -12,5 +12,7 @@ Usage:
 
 1. clone this repo
 ```
-
+git clone https://github.com/e-p-armstrong/autocommit.git
 ```
+
+2. Go to the directory you want to

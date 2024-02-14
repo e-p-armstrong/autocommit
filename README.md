@@ -52,3 +52,5 @@ python autocommit.py
 - I don't know if it works on windows
 - the list of API providers should be expanded.
 
+## Repo Mascot
+What, you thought that 

@@ -233,6 +233,11 @@ def main(config_path):
         commit_output = run_command(f'git commit -m "{commit_message}"', cwd=repo_path)
         print(commit_output)
         print(f"Committed with message: '{commit_message}'")
+        
+        if config["push"]:
+            push_output = run_command(f'git push',cwd=repo_path)
+            print(push_output)
+            print("Pushed!")
 
         # Wait for the specified interval
         time.sleep(interval_seconds)

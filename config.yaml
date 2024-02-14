@@ -2,4 +2,4 @@ repo_path: "/Users/evan/repos/autocommit"
 interval_seconds: 10
 api_key: "put your key here"
 base_url: "http://127.0.0.1:5000/v1/" # change based on your api provider
-push: false
+push: true

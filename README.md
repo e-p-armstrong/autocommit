@@ -6,4 +6,4 @@ And actually naming the commits, so that you can look through the history later 
 
 Not anymore!
 
-Autocommit is a super-lightweight and configurable script that lets AI handle the committing for you. It can use local or API-hosted models from a variety of providers — anything compatible with the OpenAI
+Autocommit is a super-lightweight and configurable script that lets AI handle the committing for you. It can use local or API-hosted models from a variety of providers — anything compatible with OpenAI-style API requests. By default it points to the endpoint offered by the [Text Generation Webui in server mode]()

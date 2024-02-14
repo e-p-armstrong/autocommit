@@ -40,8 +40,9 @@ python autocommit.py
 
 ## API provider base urls list (feel free to add):
 ```
-- "http://127.0.0.1:5000/v1/" # for if you are running Oobabooga with the api extension
-- 
+- http://127.0.0.1:5000/v1/ # for if you are running Oobabooga with the api extension
+- https://api.together.xyz # together.ai, which is real cheap, real flexible, real high-quality, and real unreliable with their capacity sometimes (still love 'em though)
+-  https://api.openai.com/v1/ # OpenAI 
 ```
 
 Notes and possible areas for improvement:

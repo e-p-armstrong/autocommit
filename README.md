@@ -21,6 +21,11 @@ git clone https://github.com/e-p-armstrong/autocommit.git
 pwd
 ```
 4. take this path and put it in the relevant spot in config.yaml, in this repo
-```
-
+```yaml
+repo_path: "/Users/evan/repos/autocommit" # Replace this with the path to the repo you're working in
+interval_seconds: 10
+api_key: "put your key here"
+base_url: "http://127.0.0.1:5000/v1/" # change based on your api provider
+push: true # whether it git pushes as well as committing
+model: "NousResearch/Nous-Hermes-2-Mixtral-8x7B-DPO"
 ```

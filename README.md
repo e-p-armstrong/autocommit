@@ -53,7 +53,7 @@ python autocommit.py
 - the list of API providers should be expanded.
 
 ## Repo Mascot
-What, you thought that just because this is a very lightweight repo I wouldn't include an Anime mascot? Think again my friend! I've got ASCII!
+What, you thought that just because this is a very lightweight repo and I'm concerned about file size, that I wouldn't include an Anime mascot? Think again my friend! I've got ASCII!
 ```
 AUTOCOMMI-TAN
 

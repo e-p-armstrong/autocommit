@@ -18,7 +18,6 @@ git clone https://github.com/e-p-armstrong/autocommit.git
 ```
 pip install -r requirements.txt
 ```
-
 2. Go to the directory you want to autocommit in.
 3. Do your OS's version of `pwd` to print the absolute path to the directory you're in.
 ```
@@ -27,9 +26,9 @@ pwd
 4. take this path and put it in the relevant spot in config.yaml, in this repo. Configure anything else you want to while you're at it.
 ```yaml
 repo_path: "/Users/evan/repos/autocommit" # Replace this with the path to the repo you're working in (this repo wrote its own commits)
-interval_seconds: 10
+interval_seconds: 10 # As the commit history of this repo has perhaps demonstrated, once every 10 seconds is... a lot haha
 api_key: "put your key here"
-base_url: "http://127.0.0.1:5000/v1/" # change based on your api provider
+base_url: "http://127.0.0.1:5000/v1/" # change based on your api provider. This is the default root for Ooba. I actually don't know what the right setting for using OpenAI is.
 push: true # whether it git pushes as well as committing
 model: "NousResearch/Nous-Hermes-2-Mixtral-8x7B-DPO"
 ```

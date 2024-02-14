@@ -40,13 +40,14 @@ python autocommit.py
 
 ## API provider base urls list (feel free to add):
 ```
-- http://127.0.0.1:5000/v1/ # for if you are running Oobabooga with the api extension
+- http://127.0.0.1:5000/v1/ # for if you are running models locally on Oobabooga with the api extension. This is the best option because this is free and the task is simple. The model I used to write the commit messages for this one can literally run on a phone.
 - https://api.together.xyz # together.ai, which is real cheap, real flexible, real high-quality, and real unreliable with their capacity sometimes (still love 'em though)
-- https://api.openai.com/v1/ # OpenAI 🤮. But it might work well with 3.5 Turbo. Don't actually know if this one works, someone tell me. 
+- https://api.openai.com/v1/ # OpenAI 🤮. But it might work well with 3.5 Turbo. Don't actually know if this one works, someone tell me.
+- more to come, feel free to add your favorite! 
 ```
 
-Notes and possible areas for improvement:
+## Notes and possible areas for improvement:
 - If your company tracks performance through number of commits this is practically cheating lol
 - It currently doesn't make the first commit of a project
 - I don't know if it works on windows
-- a list of 
+- the list of API providers should be expanded.

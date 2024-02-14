@@ -227,7 +227,7 @@ def main(config_path):
             continue
         
         # Process the diff output through the helper function
-        commit_message = process_diff_output(diff_output,client)
+        commit_message = process_diff_output(diff_output,client,config)
         
         # Commit changes
         commit_output = run_command(f'git commit -m "{commit_message}"', cwd=repo_path)

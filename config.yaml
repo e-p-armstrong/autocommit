@@ -1,6 +1,6 @@
 repo_path: "/Users/evan/repos/autocommit"
-interval_seconds: 10
-api_key: "put your key here"
-base_url: "http://127.0.0.1:5000/v1/" # change based on your api provider
-push: true
-model: "NousResearch/Nous-Hermes-2-Mixtral-8x7B-DPO"
+interval_seconds: 10 # How many seconds between commits. 10 is not much.
+api_key: "put your key here" # the API key for your provider. NO KEY NEEDED FOR LOCAL MODELS
+base_url: "http://127.0.0.1:5000/v1/" # change based on your api provider. https://api.openai.com/v1/ is OpenAI
+push: true # whether to run `git push` whenever making a commit
+model: "NousResearch/Nous-Hermes-2-Mixtral-8x7B-DPO" # not needed if using local models via the webui

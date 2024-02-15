@@ -2,6 +2,8 @@ import subprocess
 import time
 import yaml
 from openai import OpenAI
+import concurrent.futures
+
 
 # Helper function stub
 def process_diff_output(diff_output,client,config):
@@ -227,7 +229,13 @@ def main(config_path):
             continue
         
         # Process the diff output through the helper function
-        commit_message = process_diff_output(diff_output,client,config)
+        try:
+            with concurrent.futures.ThreadPoolExecutor() as executor:
+                future = executor.submit(process_diff_output, diff_output, client, config)
+                commit_message = future.result(timeout=config["timeout"])  # Set timeout as needed
+        except concurrent.futures.TimeoutError:
+            commit_message = "Big change, probably a major deletion"
+            print("Warning: Message generation timed out.")
         
         # Commit changes
         commit_output = run_command(f'git commit -m "{commit_message}"', cwd=repo_path)

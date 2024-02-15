@@ -36,7 +36,7 @@ model: "NousResearch/Nous-Hermes-2-Mixtral-8x7B-DPO"
 ```
 python autocommit.py
 ```
-7. Never lose work again!
+7. Code like you normally would, but never lose work again!
 
 ## API provider base urls list (feel free to add):
 ```
